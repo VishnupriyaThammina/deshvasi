@@ -11,3 +11,7 @@ function looper() {
   loopTimer = setTimeout('looper()', 100);
 }
 looper();
+
+$(function(){
+  $("#includedContent").load("navbar.html"); 
+});
